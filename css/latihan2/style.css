@@ -1,0 +1,23 @@
+/* pembuatan font-size, font-weight, font variant, font-style, font oblique */
+h1 {
+    /* memberikan warna pada huruf */
+    color: red;
+    /* memberikan jenis text yang di ubah */
+    font-family: 'Courier New', Courier, monospace;
+    /* memberikan ukuran pada text */
+    font-size: 50px;
+    /* memberikan text untuk tebal  */
+    font-weight: bold;
+    /* memberikan huruf kecil dan besar */
+    font-variant: small-caps;
+    /* memberikan text miring */
+    font-style: italic;
+}
+p {
+    font-family: georgia,serif;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: oblique;
+    /* memerikan line spaci pada paragraf */
+    line-height: 30px;
+}

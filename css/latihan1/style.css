@@ -1,6 +1,9 @@
 h1 {
+    /* memberikan warna pada text h1 */
     color: aquamarine;
+    /* memberikan jenis huruf */
     font-family: Arial, Helvetica, sans-serif;
+    /* memberikan ukuran huruf */
     font-size: 50px;
 }
 p {
