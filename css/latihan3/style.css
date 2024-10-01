@@ -1,0 +1,8 @@
+body {
+    background-color: lightblue;
+    /* merubah warna baground */
+    background-color: lightblue;
+    /* manambah gambar baground  */
+    background-image: url(gambar/bg1.png);
+    background-repeat: no-repeat;
+}

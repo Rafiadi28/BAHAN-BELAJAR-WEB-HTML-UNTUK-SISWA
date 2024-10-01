@@ -1,7 +1,7 @@
 /* pembuatan font-size, font-weight, font variant, font-style, font oblique */
 h1 {
     /* memberikan warna pada huruf */
-    color: red;
+    color: rgb(85, 107, 47);
     /* memberikan jenis text yang di ubah */
     font-family: 'Courier New', Courier, monospace;
     /* memberikan ukuran pada text */
@@ -12,6 +12,8 @@ h1 {
     font-variant: small-caps;
     /* memberikan text miring */
     font-style: italic;
+    /* penambahan text decoration untuk garis bawah */
+    text-decoration: underline;
 }
 p {
     font-family: georgia,serif;
@@ -20,4 +22,22 @@ p {
     font-style: oblique;
     /* memerikan line spaci pada paragraf */
     line-height: 30px;
+    /* untuk mengatur text contoh : rata kanan */
+    /* text-align: right */
+    /* untuk mengatur paragraf */
+    text-indent: 100px;
+    /* mengubah text menjadi, kecil dengan lowcase, 
+    besar : uppcase, huruf besar tiap huruf dengan : Capitalize */
+    text-transform: capitalize;
+    /* untuk mengatur spasi */
+    letter-spacing: 5px;
+}
+
+a{
+    font-size: 50px;
+    /* menghilangkan garis bawah */
+    text-decoration: none;
+    /* mengubah text menjadi, kecil dengan lowcase, 
+    besar : uppcase, huruf besar tiap huruf dengan : Capitalize */
+    text-transform: uppercase;
 }
