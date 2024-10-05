@@ -1,0 +1,25 @@
+/* Pembuatan selector body */
+body {
+    /* Mengganti Jenis Text */
+    font-family: arial;
+}
+/* pembuatan selector h1 dan h2 */
+h1,h2{
+    color: green;
+}
+/* pergantian warna selector pada ul */
+#ul {
+    color: orange;
+}
+/* pergantian warna selector pada ol */
+.ol {
+    color: red;
+} 
+/* mengganti warna paragraf 1 pada selector dikasih tanda # untuk penanda id */
+#p1 {
+    color: green;
+}
+/* mengganti warna paragraf 2 pada selector tandan . untuk penanda class */
+.p2 {
+    color: blue;
+}

@@ -3,6 +3,11 @@ body {
     /* merubah warna baground */
     background-color: lightblue;
     /* manambah gambar baground  */
-    background-image: url(gambar/bg1.png);
+    background-image: url(gambar/waterfall.png);
     background-repeat: no-repeat;
+    /* ubah gambar ke kanan */
+    background-position: top center;
+    /* ubah ukuran gambar */
+    background-size: 500px
 }
+
