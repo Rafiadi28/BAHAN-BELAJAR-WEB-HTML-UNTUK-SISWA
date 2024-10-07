@@ -1,0 +1,65 @@
+/* MATERI PSEUDO CODE CLASS */
+
+/* pemberian warna link menggunakan class   */
+.hello{
+    color: orange;
+}
+/* pemberian fungsi hover pada css berfungsi jika kita akan klik sebuah text maka text akan berubah */
+.hello:hover{
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+/* pemberian fungsi active pada css berfungsi untuk memberikan text miring jika kita klik text tersebut  */
+.hello:active {
+    font-style: italic;
+}
+
+/* pemberian fungsi visited pada css berfungsi untuk memberikan text warna   */
+.hello:visited {
+    color: red;
+}
+
+/* parent-child:pseudo code 2 */
+
+/* pemberian warna li dengan cara memanggil fungsi first-child, memberikan warna pada anak pertama  */
+/* li:first-child a{
+    color: green;
+} */
+/* pemberian warna li dengan cara memanggil fungsi last-child,  memberikan warna anak terakhir */
+
+/* 
+li:last-child a{
+    color: green;
+} */
+/* pemberian warna li dengan cara memanggil fungsi nth-child, 
+memberikan warna dengan target yang dituju, 
+fungsi () -> sebagai parameter untuk keliapatan 2 (angka genap) maka ditambah fungsi n (2n)
+ untuk menambahkan keliapan ganjil maka  ditambah (3n-2) */
+
+/* li:nth-child(5) a{
+    color: green;
+} */
+
+/* bisa juga untuk menambah warna pada angka ganjil maupun genap
+bisa di beri fungsi event-> genap dan odd->ganjil */
+/* li:nth-child(event) a{   
+    color: green;
+} */
+/* li:nth-child(odd) a{   
+    color: green;
+} */
+/* membuat warna link dengan fungsi odd dan even  */
+li:nth-child(odd) a:hover{
+    color: red;
+}
+li:nth-child(even) a:hover{
+    color: green;
+}
+
+/* memberikan warna pada paragraf dengan fungsi first-of-type */
+/* jika ingin memberi warna pada paragraf terakhir maka menggunakan fungsi last-of-type */
+p:first-of-type{
+    color: lightcoral;
+}
