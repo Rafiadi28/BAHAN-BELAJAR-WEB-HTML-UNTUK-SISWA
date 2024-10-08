@@ -1,0 +1,10 @@
+body {
+    font-family: arial;
+    color: darkgrey;
+}
+
+/* fungsi inheretance/pewarisan untuk mengubah semua warna pada link 
+karena nilai a tidak mewarisi nilai dari properti color */
+a {
+    color: inherit;
+}
