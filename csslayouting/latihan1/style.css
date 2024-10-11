@@ -1,0 +1,48 @@
+/* inline untuk text tidak bisa diubah ukuranya contoh link */
+/* a {
+    background-color: aqua;
+}  */
+/* inilne gambar bisa diubah ukuranya karena berbentuk gambar */
+
+/* inline-block berbeda dengan inline yang biasanya
+inline-block bisa diubah ukuran tulisanya */
+a {
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    display:inline-block
+}
+
+img{
+    width: 200px; height: 150px;
+}
+
+/* element block dapat menyimpan tag dengan element inleine
+, inline-block,bahkan element blok lagi
+jadi element block harus diatur agar tampilan bisa sesuai dengan keinginan
+contoh element block h1-h6,p,ol,ul,li,form,hr,div*/
+/* 
+h1, h2, p{
+    background-color: lightgrey;
+} */
+
+/* memberikan warna baground element-blok di main  */
+.main{
+    background-color: limegreen;
+    width: 500px;
+}
+
+/* memberikan warna baground pada element blok h2 */
+h2 {
+    background-color: lightblue;
+}
+
+/* cara menghilang gambar pada element block */
+img {
+    display: none;
+}
+
+/* cara mengubah element blok menjadi inline */
+.navigasi li {
+    display: inline;
+}
