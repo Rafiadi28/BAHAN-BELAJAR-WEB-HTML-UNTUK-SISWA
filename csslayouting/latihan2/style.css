@@ -1,0 +1,39 @@
+/* pembuatan dimensi contonya  width dan height, untuk contoh sbb */
+/* contoh dimensi menggunakan px */
+/* div {
+    width: 200px;
+    height: 200px; 
+    background-color: lightgray;
+} */
+
+/* contoh dimensi menggunakan % */
+/* div {
+    width: 100%;
+    height: 200px;
+    background-color: lightgreen;
+} */
+
+/* contoh menggunakan div class pada dimensi */
+/* .satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+}
+.dua {
+    width: 100%;
+    background-color: aqua;
+} */
+
+/* penggunaan overflow pada dimensi  sbb :*/
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: auto;
+} */
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    overflow: scroll;
+}

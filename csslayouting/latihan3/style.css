@@ -1,0 +1,61 @@
+/* cara menggunakan overlapping margin */
+/* div {
+    display: inline-block;
+} */
+/* terjadi jarak jika menggunakan inline-blok, 
+padahal tidak menggunakan pengaturan jarak 
+untuk menghilangkan jarak jika menggunakan inline-blok
+maka pada file margin html tidak menggunakan spasi di codingnya */
+
+
+/* jangan lupa tanda . mewakili 1 div */
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+
+    /* fungsi margin pada di box model pada css */
+    /* margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px; */
+
+    /* margin-right: 30px; */
+    /* overlapping margin jika posisi blok vertikal maka posisi 30px akan menambah */
+
+    /* menggunakan negativ margin */
+    /* margin-bottom: 50px; */
+
+    /* Menggunakan Margin Auto */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    /* Penggunaan Shorthand Pada Box Model */
+    margin:  auto;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+
+    /* margin-left: 20px; */
+    /* overlapping jika posisi blok vertikal maka posisi 20px akan menambah */
+
+    /* jika menggunakan negativ margin */
+    /* margin-top: -60px; */
+
+    /* Menggunakan Margin Auto */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+
+        /* Menggunakan Margin Auto */
+        /* margin-left: auto;
+        margin-right: auto; */
+}
