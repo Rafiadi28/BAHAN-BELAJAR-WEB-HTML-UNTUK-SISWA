@@ -1,0 +1,46 @@
+/* pembuatan padding pada box-model */
+div {
+    width: 600px;
+    /* height: 200px; */
+    background-color: coral;
+    /* jangan lupa margin: auto untuk rata tengah
+    untuk kasih spasi jangan lupa didepan auto kasi value */
+    margin: 20px auto;
+    /* fungsi padding untuk menambah lebar: top-bottom-left-right pada box-model */
+    /* padding-left: 50px;
+    padding-top: 20px; */
+    
+    /* untuk mempermudah code pada padding bisa dilakukan 1 kali dengan cara */
+    /* padding tidak bisa di kasih nilai negatif */
+    /* padding tidak bisa dikash nilai auto */
+    padding: 10px 20px 30px 40px;
+
+    /* penambahan border pada padding contoh 
+    5px untuk lebarnya, solid untuk jenis border dan black sbg warna */
+    /* border: 5px solid black; */
+
+    /* jenis border: dotten yaitu garis titik" */
+    /* border: 5px dotted black; */
+
+    /* jenis border: dotten yaitu garis putus" */
+    /* border: 5px dashed black; */
+
+    /* jenis border: dotten yaitu garis doble" */
+    border: 5px double black;
+
+/* box-sizing berfungsi untuk meratakan kotak sesuai dengan pixel pertama */
+    box-sizing: border-box;
+}
+.satu{
+    background-color: royalblue;
+    padding: 10px;
+    margin:  auto;
+    border: 5px solid red;
+}
+
+.dua{
+    background-color: red;
+    padding: 30px;
+    border: 10px dashed blue;
+    margin: auto;
+}
