@@ -1,0 +1,20 @@
+/* float digunakan untuk galery */
+.container {
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.kotak {
+    width: 80px;
+    height: 80px;
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    /* line-height berfungsi untuk mengtengahkan/center tulisan */
+    line-height: 80px;
+    font-size: 30px;
+    margin: 2px;
+    float: left;
+}
