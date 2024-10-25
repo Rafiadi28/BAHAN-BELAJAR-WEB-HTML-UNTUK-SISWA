@@ -18,3 +18,7 @@
     margin: 2px;
     float: left;
 }
+/* penggunaan metode clear */
+.clear {
+    clear: left;
+}

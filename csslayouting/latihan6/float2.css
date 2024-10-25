@@ -4,9 +4,16 @@
     border: 2px solid black;
     margin: auto;
     padding: 5px;
+    /* metode 1 fungsi overflow untuk menyesuaikan container /fungsi overflow untuk mengakali float */
+    /* overflow: auto; */
 }
 
 img {
     float: left;
     margin: 5px;
+}
+
+/* contoh menggunakan metode 2 dengan clear */
+.clear {
+    clear: left;
 }
