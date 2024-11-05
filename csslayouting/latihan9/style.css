@@ -1,0 +1,26 @@
+div {
+    width :200px;
+    height :200px;
+    position : absolute;
+}
+
+.satu {
+    background-color : salmon;
+    /* fungsi z-index yaitu untuk mengubah elemen menjadi yang paling depan daripada elemen yang lain */
+    /* untuk mengubah elemen yang tadinya di depan menjadi dibelakang dtmabah - (minus) */
+    z-index:999;
+}
+
+.dua {
+    background-color : lightgreen;
+    top: 100px;
+    left:100px;
+    z-index:2px
+    
+}
+
+.tiga {
+    background-color : royalblue;
+    top : 200px;
+    left:200px;
+}

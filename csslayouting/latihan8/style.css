@@ -1,6 +1,11 @@
 div {
     width : 200px;
     height :200px;
+    margin : auto;
+}
+
+body {
+    height :2000px;
 }
 
 .satu {
@@ -10,11 +15,25 @@ div {
     background-color : violet;
     /* fungsi position berfungsi untuk mengubah suatu element tanpa mengubah elemen lainya
     atau menggeser sebuat kotak tetapi kotak lainya tidak ikut tergeser */
-    position :absolute;
-    left:50px;
+    /* position :absolute; */
+    /* penggunaan postion fix */
+    position:fixed;
+        top:0px; 
+        left:0px;
+    /* right:0px; */
+    /* height:40px;
+    width: 100% */
 
 
 }
 .tiga{
     background-color: gold;
+}
+
+.container {
+    width:600px;
+    height:650px;
+    border: 10px solid green;
+    position :  relative;
+
 }
