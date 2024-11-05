@@ -1,0 +1,20 @@
+div {
+    width : 200px;
+    height :200px;
+}
+
+.satu {
+    background-color: lightgreen;
+}
+.dua {
+    background-color : violet;
+    /* fungsi position berfungsi untuk mengubah suatu element tanpa mengubah elemen lainya
+    atau menggeser sebuat kotak tetapi kotak lainya tidak ikut tergeser */
+    position :absolute;
+    left:50px;
+
+
+}
+.tiga{
+    background-color: gold;
+}
