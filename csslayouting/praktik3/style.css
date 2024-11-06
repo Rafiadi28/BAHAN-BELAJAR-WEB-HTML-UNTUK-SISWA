@@ -1,0 +1,175 @@
+/* pemberian font dan warna, pemberian jarak baris / Font Standar */
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333 ;
+}
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: #ffff;
+    /* position relative wajib dikasihkan ke container jika nanti akan di zoom maka gambar akan menyesuaikan */
+    position:relative;
+}
+.ig{
+    width: 100px;
+    height: 100px;
+    background-image: url(gambar/ig.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    /* text-indent berfungsi untuk mengubah tulisan menjadi gambar */
+    text-indent :-999px;
+    position:absolute;
+    top:0px;
+    right:0px; 
+}
+
+.top-bar {
+    position:fixed;
+    top : 0px;
+    left :0px;
+    right:0px;
+    height:40px;
+    background-color : lightskyblue;
+    border-bottom :3px solid salmon;
+    /* mengubah gambar menjadi paling belakang */
+    z-index : 9999;
+}
+
+/* padding pada header berfungsi untuk melebarkan container */
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+/* memperbesar ukuruan text pada judul */
+.header  .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* cara membuat navigasi menjadi vertikal menggunakan inline blok */
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* cara memodifikasi navigasi  */
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+
+}
+
+/* cara memberi warna pada navigasi saat di klik */
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* pengaturan pada banner, untuk memasukan gambar bisa kunjungi unsplash.com */
+.hero {
+    height: 320px;
+    background-image: url(/praktik2/gambar/komputer.jpg);
+    background-size: cover;
+    /* untuk mengatur vertikal dan horizontal sebuah banner/gambar */
+    background-position: 0 -140px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+
+/* pengaturan pada konten website */
+.main {
+    width:600px;
+    padding: 20px;
+    box sizing : border-box; 
+    float : left;
+}
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.main .Penulis {
+    font-size: 11;
+    margin-top: -5px;
+}
+.main .Penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+.main .Penulis a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+.main p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* pengaturan sidebar */
+.sidebar {
+    width: 300px;
+    float:right;
+    padding:10px;
+}
+
+/* pengaturan sidebar pada h3 */
+.sidebar h3 {
+    font-weight: bold;
+    color : #666;
+}
+
+/* pengaturan sidebar pada gambar */
+.sidebar  img {
+    width: 70px;
+    height:70px;
+    float:left;
+    padding:10px
+}
+
+.sidebar p {
+    font: 12px/18px arial;
+}
+
+/* Pengaturan Pada Footer */
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* cara mengatasi clearfix pada float agar tidak eror dan rapi */
+/**
+    * For modern browsers
+    * 1. The space content is one way to avoid an Opera bug when the
+    *    contenteditable attribute is included anywhere else in the document.
+    *    Otherwise it causes space to appear at the top and bottom of elements
+    *    that are clearfixed.
+    * 2. The use of `table` rather than `block` is only necessary if using
+    *    `:before` to contain the top-margins of child elements.
+    */
+    .cf:before,
+    .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    
+    .cf:after {
+        clear: both;
+    }
+    
+    /**
+    * For IE 6/7 only
+    * Include this rule to trigger hasLayout and contain floats.
+    */
+    .cf {
+        *zoom: 1;
+    }
