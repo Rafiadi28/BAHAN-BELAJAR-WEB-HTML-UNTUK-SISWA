@@ -1,0 +1,45 @@
+div {
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(90deg,red, #f0d606, rgba(255,255,0,1), green);
+}
+.satu{
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(45deg,red, #f0d606, rgba(255,255,0,1), green);
+}
+.dua{
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(to left,red, #f0d606, rgba(255,255,0,1), green);
+}
+.tiga{
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(to right,red, #f0d606, rgba(255,255,0,1), green);
+}
+
+.empat{
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(to bottom right,red, #f0d606, rgba(255,255,0,1), green);
+}
+
+/* pemberian color stop pada linear gradient */
+.lima {
+    width: 600px;
+    height: 300px;
+    margin:50px auto;
+    /* pemberian linear-gradien pada css 3 */
+    background-image: linear-gradient(to right,green 63%, blue 80%);
+}
